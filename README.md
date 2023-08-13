@@ -2,6 +2,8 @@
 
 A 3d representation of hiking routes in Dovrefjell, Norway.
 
+Live at https://kamieljv.github.io/dovrefjell3d
+
 Adapted from https://github.com/bertt/corsica_gr20.
 
 ## Overpass QL query for Huts

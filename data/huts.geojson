@@ -1,0 +1,335 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2023-08-13T10:15:00Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/443469803",
+          "amenity": "shelter",
+          "fireplace": "yes",
+          "name": "Vikseterplassen villmarksleir"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.6140648,
+            62.4385232
+          ]
+        },
+        "id": "node/443469803"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/504715629",
+          "amenity": "shelter",
+          "name": "Kåsrandin"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.705132,
+            62.5749928
+          ]
+        },
+        "id": "node/504715629"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/664773392",
+          "amenity": "shelter",
+          "ele": "684.6",
+          "name": "Guriberget",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.755743,
+            62.624957
+          ]
+        },
+        "id": "node/664773392"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/669984472",
+          "amenity": "shelter",
+          "ele": "753.1",
+          "type": "lean-to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.5904589,
+            62.5690227
+          ]
+        },
+        "id": "node/669984472"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/751989234",
+          "amenity": "shelter",
+          "ele": "839.4",
+          "name": "Landlaupe",
+          "type": "lean-to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.687289,
+            62.568499
+          ]
+        },
+        "id": "node/751989234"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2997816676",
+          "amenity": "shelter"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.4900443,
+            62.2239814
+          ]
+        },
+        "id": "node/2997816676"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/6131154206",
+          "amenity": "shelter"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.6282184,
+            62.5309279
+          ]
+        },
+        "id": "node/6131154206"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/6131154209",
+          "amenity": "shelter"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.6944475,
+            62.432405
+          ]
+        },
+        "id": "node/6131154209"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9812364112",
+          "amenity": "shelter",
+          "name": "Blakkhaugbua",
+          "ref:kartverket:hytte": "9999",
+          "shelter_type": "basic_hut"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.5275198,
+            62.5013072
+          ]
+        },
+        "id": "node/9812364112"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9812364120",
+          "amenity": "shelter",
+          "ref:kartverket:hytte": "5658",
+          "shelter_type": "basic_hut"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.232319,
+            62.2727654
+          ]
+        },
+        "id": "node/9812364120"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9812364155",
+          "amenity": "shelter",
+          "name": "Storsteinbua",
+          "ref:kartverket:hytte": "9999",
+          "shelter_type": "basic_hut"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.2872218,
+            62.3941321
+          ]
+        },
+        "id": "node/9812364155"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9812364181",
+          "amenity": "shelter",
+          "name": "Hansenbua",
+          "ref:kartverket:hytte": "9999",
+          "shelter_type": "basic_hut"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.1782984,
+            62.3602438
+          ]
+        },
+        "id": "node/9812364181"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9833914349",
+          "amenity": "shelter",
+          "ref:kartverket:hytte": "5296",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.3436175,
+            62.5867407
+          ]
+        },
+        "id": "node/9833914349"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9833914361",
+          "amenity": "shelter",
+          "name": "Gapahuk",
+          "operator": "Statskog",
+          "ref:kartverket:hytte": "3132",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.5776984,
+            62.2153542
+          ]
+        },
+        "id": "node/9833914361"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9833914405",
+          "amenity": "shelter",
+          "name": "Gapahuk Geitberget",
+          "operator": "Statskog",
+          "ref:kartverket:hytte": "3076",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.5101634,
+            62.2130154
+          ]
+        },
+        "id": "node/9833914405"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/9833914440",
+          "amenity": "shelter",
+          "name": "Gapahuk Tverfjellet",
+          "operator": "Statskog",
+          "ref:kartverket:hytte": "3067",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.4925233,
+            62.2216337
+          ]
+        },
+        "id": "node/9833914440"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/10180185336",
+          "amenity": "shelter",
+          "name": "Gapahuk Stortela",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.9352605,
+            62.5658092
+          ]
+        },
+        "id": "node/10180185336"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/10180185337",
+          "amenity": "shelter",
+          "name": "Gapahuk Storvatnet",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.9566616,
+            62.551612
+          ]
+        },
+        "id": "node/10180185337"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/10180185338",
+          "amenity": "shelter",
+          "name": "Gapahuk Tøftvangen",
+          "shelter_type": "lean_to"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.9988927,
+            62.5301201
+          ]
+        },
+        "id": "node/10180185338"
+      }
+    ]
+  }

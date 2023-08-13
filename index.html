@@ -43,34 +43,50 @@
     viewer.scene.globe.terrainExaggeration = 1;
     viewer.scene.globe.depthTestAgainstTerrain=true;
 
-    var geojson = Cesium.GeoJsonDataSource.load('geojson/fale_onderlangs.geojson',  {
+    var fale_onder = Cesium.GeoJsonDataSource.load('data/fale_onderlangs.geojson',  {
       clampToGround: true,
       stroke: Cesium.Color.RED,
       strokeWidth: 3,
     });
-    viewer.dataSources.add(geojson);
-    viewer.flyTo(geojson);
+    var fale_boven = Cesium.GeoJsonDataSource.load('data/fale_bovenlangs.geojson',  {
+      clampToGround: true,
+      stroke: Cesium.Color.BLUE,
+      strokeWidth: 3,
+    });
+    var blokkhus = Cesium.GeoJsonDataSource.load('data/blokkhus.geojson',  {
+      clampToGround: true,
+      stroke: Cesium.Color.GREEN,
+      strokeWidth: 3,
+    });
+    viewer.dataSources.add(fale_onder);
+    viewer.dataSources.add(fale_boven);
+    viewer.dataSources.add(blokkhus);
+
+
+    viewer.flyTo(fale_onder);
     
 
-    // var stops = Cesium.GeoJsonDataSource.load('geojson/stops.json',  {
-    //    clampToGround: true,
-    //    markerColor: Cesium.Color.DARKGREEN,
-    // });
+    var stops = Cesium.GeoJsonDataSource.load('data/huts.geojson',  {
+       clampToGround: true,
+       markerColor: Cesium.Color.DARKGREEN,
+    });
 
-    // stops.then (function (dataSource) {
-    //   viewer.dataSources.add (dataSource);
-    //   var entities = dataSource["_entityCollection"]["_entities"]["_array"];
-    //   entities.forEach (entity => {
-    //     // Add (and poistion?) label
-    //     entity.label = new Cesium.LabelGraphics ({
-    //       text: entity['_properties']['name']._value,
-    //       //eyeOffset: new Cesium.Cartesian3 (0, 10, 0),
-    //       horizontalOrigin: Cesium.HorizontalOrigin.LEFT,
-    //       verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-    //       pixelOffset: new Cesium.Cartesian2(0.0, -40.0), // Show above ground?
-    //     });
-    //   })
-    // });
+    stops.then (function (dataSource) {
+      viewer.dataSources.add(dataSource);
+      var entities = dataSource["_entityCollection"]["_entities"]["_array"];
+      entities.forEach (entity => {
+        // Add (and poistion?) label
+        if (entity['_properties']['name'] !== undefined) {
+          entity.label = new Cesium.LabelGraphics ({
+            text: entity['_properties']['name']._value,
+            //eyeOffset: new Cesium.Cartesian3 (0, 10, 0),
+            horizontalOrigin: Cesium.HorizontalOrigin.LEFT,
+            verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+            pixelOffset: new Cesium.Cartesian2(0.0, -40.0), // Show above ground?
+          });
+        }
+      })
+    });
   </script>
 </body>
 </html>
